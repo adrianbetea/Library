@@ -1,8 +1,8 @@
-module com.example.library {
+module main {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.library to javafx.fxml;
-    exports com.example.library;
+    opens main to javafx.fxml;
+    exports main;
 }
